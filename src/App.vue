@@ -1,7 +1,7 @@
 <!--
  * @Author: yin
  * @Date: 2023-03-26 22:29:27
- * @LastEditTime: 2023-03-28 22:33:21
+ * @LastEditTime: 2023-04-02 19:00:24
  * @LastEditors: yin
  * @Description: 
 -->
@@ -12,8 +12,4 @@
 </template>
 
 <style scoped lang="scss">
-.id {
-	width: 100%;
-	height: 100%;
-}
 </style>

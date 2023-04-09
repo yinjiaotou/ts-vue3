@@ -1,14 +1,13 @@
 <!--
  * @Author: yin
  * @Date: 2023-03-26 23:08:15
- * @LastEditTime: 2023-04-02 15:51:30
+ * @LastEditTime: 2023-04-02 16:40:35
  * @LastEditors: yin
  * @Description: 
 -->
 <template>
 	<div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center">
 		<div @click="toLogin">toLogin</div>
-		<!-- <router-view></router-view> -->
 		<div>
 			<h5>name:{{ name }}</h5>
 			<h5>num:{{ num }}</h5>
