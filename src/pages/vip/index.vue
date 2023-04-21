@@ -1,14 +1,14 @@
 <!--
  * @Author: yin
  * @Date: 2023-04-02 22:47:24
- * @LastEditTime: 2023-04-21 22:33:31
+ * @LastEditTime: 2023-04-21 22:44:09
  * @LastEditors: yin
  * @Description: 
 -->
 <template>
     <div>
         <Header></Header>
-        <Main> </Main>
+        <Main>会员 </Main>
         <Footer></Footer>
     </div>
 </template>
