@@ -14,9 +14,10 @@
 </template>
 
 <script setup lang="ts">
-import Header from '@/components/layout/header.vue'
+// import Header from '@/components/layout/header.vue'
 import Main from '@/components/layout/main.vue'
 import Footer from '@/components/layout/footer.vue'
+import Header from '@/components/layout/header.vue'
 </script>
 
 <style scoped lang="scss"></style>
