@@ -1,7 +1,7 @@
 /*
  * @Author: yin
  * @Date: 2023-03-26 23:09:35
- * @LastEditTime: 2023-04-22 00:58:22
+ * @LastEditTime: 2023-04-21 22:37:54
  * @LastEditors: yin
  * @Description: 
  */
@@ -16,15 +16,16 @@ export const routes = [
     {
         name: 'layout', path: '/layout', component: () => import("../pages/layout/index.vue"),
         children: [
-            { name: 'page1', path: 'page1', component: () => import("../pages/singlePage/page1.vue") },
-            { name: 'page2', path: 'page2', component: () => import("../pages/singlePage/page2.vue") },
-            { name: 'page3', path: 'page3', component: () => import("../pages/singlePage/page3.vue") },
-            { name: 'page4', path: 'page4', component: () => import("../pages/singlePage/page4.vue") },
+            { name: 'test', path: 'test', component: () => import("../pages/vip/index.vue") },
+            { name: 'ooo', path: 'ooo', component: () => import("../pages/account.vue") },
         ]
     },
     {
-        name: 'home', path: '/home', component: () => import("../pages/home/index.vue")
+        name: 'home', path: '/home', component: () => import("../pages/swiper/index.vue")
     },
+    // {
+    //     name: 'swiper', path: '/swiper', component: () => import("../pages/swiper/index.vue"),
+    // },
     {
         name: 'course', path: '/course', component: () => import("../pages/course/index.vue")
     },
